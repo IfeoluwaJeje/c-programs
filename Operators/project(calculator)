@@ -1,0 +1,44 @@
+/* Project 1
+CODING A CALCULATOR USING C */
+
+#include <stdio.h>
+
+int main() {
+   int a, b, option;
+   
+   printf("ENTER YOUR FIRST NUMBER:\n");
+   scanf("%d", &a);
+   
+   printf("ENTER YOUR SECOND NUMBER:\n");
+   scanf("%d", &b);
+   
+   printf("Press 1 for ADDITION \n");
+   printf("Press 2 for SUBTRACTION \n");
+   printf("Press 3 for MULTIPLICATION \n");
+   printf("Press 4 for DIVISION \n");
+  
+  scanf("%d", &option);
+  
+  switch(option){
+  case 1:
+  printf("Sum is %d \n", a+b);
+  break;
+  
+  case 2:
+  printf("Difference is %d \n", a-b);
+  break;
+  
+  case 3:
+  printf("Multiplication  is %d \n", a*b);
+  break;
+  
+  case 4:
+  printf("Division is %d \n", a/b);
+  break;
+  
+  default:
+  printf("Enter a valid number");
+  }
+
+    return 0;
+}

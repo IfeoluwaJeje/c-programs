@@ -12,7 +12,7 @@ void main()
 
 // Add more numbers togetheer
 #include <stdio.h>
-
+ 
 int main()
 {
     int numCount, result;
